@@ -1,0 +1,129 @@
+.feed {
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    text-align: center;
+    height: fit-content;
+  }
+  
+  .feed__avatar {
+    margin-bottom: 10px;
+  }
+  
+  .feed__top > h2 {
+    font-size: 14px;
+  }
+  
+  .feed__top > h4 {
+    color: gray;
+    font-size: 12px;
+  }
+  
+  .feed__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0;
+    background-color: white;
+    padding-bottom: 10px;
+  }
+  .feed__top > img {
+    margin-bottom: -40px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .feed__top > .MuiAvatar-colorDefault {
+    background-color: #70b5f9;
+    width: 170px;
+    height: 170px;
+  
+  }
+  
+  .feed__top > .MuiAvatar-root {
+    left: -35%;
+    top: 50%;
+    border:  10px solid #FFFFFF;
+    width: 170px;
+    height: 170px;
+  }  
+ 
+  .feed__statNumber {
+    font-weight: bold;
+    color: #0a66c2 !important;
+  }
+  
+  .feed__bottom {
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+  }
+  
+  .feed__recentItem {
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  
+  .feed__bottom > p {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .feed__bottom > span {
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: gray;
+  }
+  
+  .feed__bottom > h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #0a66c2;
+  }
+  
+  .feed__recentItem:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .feed__hash {
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+
+  .tab {
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;    
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #0077B5;
+
+  }
