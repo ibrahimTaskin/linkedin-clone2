@@ -21,7 +21,7 @@ const Header = () => {
           src="/images/logo.png"
           alt="linkedin logo"
         />
-        <HeaderOption Icon={RssFeedOutlined} title="FEED" />
+        <HeaderOption Icon={RssFeedOutlined} title="FEED" dropdown={true}/>
         <HeaderOption Icon={SupervisorAccountOutlined} title="NETWORK" />
         <HeaderOption Icon={BusinessCenterOutlined} title="JOBS" />
         <HeaderOption Icon={ChatOutlined} title="CHAT" />
