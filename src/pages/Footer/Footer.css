@@ -1,0 +1,26 @@
+.footer {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    padding-bottom: 10px;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+
+}
+.footer__left {
+    display: flex;
+    padding: 0%;
+    margin: 0;
+}
+.footer__left > img {
+    height: 40px;
+}
+
+.footer__right {
+    display: flex;
+}
+
+.footer__right .MuiAvatar-colorDefault {
+    background-color: #70B5F9;
+  }

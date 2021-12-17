@@ -125,5 +125,50 @@
   /* Create an active/current tablink class */
   .tab button.active {
     background-color: #0077B5;
-
   }
+  .branch {
+  color: #cccccc;
+  margin-bottom: 14px !important;
+}
+
+.box{
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.box_inside{
+  margin-left: 20px;
+  padding-top: 20px;
+  width: 30%;
+  height: 90px;
+  text-align: center;
+  border: 1px solid rgba(1, 1, 1, 0.1);
+  border-radius: 5px;
+}
+.box_inside img{
+  border-radius: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+
+}
+
+.experience{
+  display: contents;
+  padding-bottom: 30px;
+}
+
+.experience_inside{
+  line-height: 30px;
+  display: flex;
+  margin-left: 20px;
+  padding-top: 20px;
+  font-family: 'Courier New', Courier, monospace
+}
+.experience_inside img{
+  width: 90px;
+  height: 90px;
+  padding: 0;
+  margin: 0;
+
+}
